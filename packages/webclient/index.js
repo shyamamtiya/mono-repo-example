@@ -1,2 +1,3 @@
 const consoleFun = require("@mono-repo/dashboard");
-console.log(consoleFun.consoleFun());
+const methodModule = consoleFun.methodModule;
+console.log(methodModule.method());
